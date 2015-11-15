@@ -3,6 +3,9 @@ package com.mapengfei.test.concurency;
 import java.sql.Connection;
 import java.util.LinkedList;
 
+/**
+ * 基于等待模式的线程池
+ */
 public class ConnectionPool {
     private LinkedList<Connection> pool = new LinkedList<Connection>();
 
